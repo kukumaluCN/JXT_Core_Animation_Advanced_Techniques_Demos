@@ -13,6 +13,7 @@
 		A728E0F11E1CEE5600FB7E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A728E0EF1E1CEE5600FB7E51 /* Main.storyboard */; };
 		A728E0F31E1CEE5600FB7E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A728E0F21E1CEE5600FB7E51 /* Assets.xcassets */; };
 		A728E0F61E1CEE5600FB7E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A728E0F41E1CEE5600FB7E51 /* LaunchScreen.storyboard */; };
+		A728E0FE1E1CF93500FB7E51 /* snowman.png in Resources */ = {isa = PBXBuildFile; fileRef = A728E0FD1E1CF93500FB7E51 /* snowman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A728E0F21E1CEE5600FB7E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A728E0F51E1CEE5600FB7E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A728E0F71E1CEE5600FB7E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A728E0FD1E1CF93500FB7E51 /* snowman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A728E0EA1E1CEE5600FB7E51 /* AppDelegate.m */,
 				A728E0EC1E1CEE5600FB7E51 /* ViewController.h */,
 				A728E0ED1E1CEE5600FB7E51 /* ViewController.m */,
+				A728E0FD1E1CF93500FB7E51 /* snowman.png */,
 				A728E0EF1E1CEE5600FB7E51 /* Main.storyboard */,
 				A728E0F21E1CEE5600FB7E51 /* Assets.xcassets */,
 				A728E0F41E1CEE5600FB7E51 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A728E0F61E1CEE5600FB7E51 /* LaunchScreen.storyboard in Resources */,
+				A728E0FE1E1CF93500FB7E51 /* snowman.png in Resources */,
 				A728E0F31E1CEE5600FB7E51 /* Assets.xcassets in Resources */,
 				A728E0F11E1CEE5600FB7E51 /* Main.storyboard in Resources */,
 			);

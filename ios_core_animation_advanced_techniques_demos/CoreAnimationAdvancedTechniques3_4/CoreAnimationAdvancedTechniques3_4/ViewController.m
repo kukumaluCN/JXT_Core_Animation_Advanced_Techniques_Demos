@@ -13,6 +13,9 @@
 #define kScreenCenter CGPointMake(kScreenWidth*0.5, kScreenHeight*0.5)
 #define kDegreesToRadian(x) (M_PI * (x) / 180.0)
 
+#define kPartEnabled 2
+
+
 @interface ViewController ()
 @property (nonatomic, strong) UIView * layerView;
 @property (nonatomic, strong) CALayer * blueLayer;
@@ -63,7 +66,8 @@
     
     
     //-containsPoint:接受一个在本图层坐标系下的CGPoint，如果这个点在图层frame范围内就返回YES。如清单3.4所示第一章的项目的另一个合适的版本，也就是使用-containsPoint:方法来判断到底是白色还是蓝色的图层被触摸了 （图3.10）。这需要把触摸坐标转换成每个图层坐标系下的坐标，结果很不方便。
-    /*
+    
+#if kPartEnabled == 1
     //清单3.4 使用containsPoint判断被点击的图层
     
     //convert point to the white layer's coordinates
@@ -88,10 +92,11 @@
             NSLog(@"点击-layerView");
         }
     }
-    */
+#endif
     
     
     
+#if kPartEnabled == 2
     //-hitTest:方法同样接受一个CGPoint类型参数，而不是BOOL类型，它返回图层本身，或者包含这个坐标点的叶子节点图层。这意味着不再需要像使用-containsPoint:那样，人工地在每个子图层变换或者测试点击的坐标。如果这个点在最外面图层的范围之外，则返回nil。
     
     //清单3.5 使用hitTest判断被点击的图层
@@ -129,6 +134,7 @@
         flag = !flag;
         self.layer1.zPosition = flag;
     }
+#endif
 }
 
 
