@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CoreAnimationAdvancedTechniques4_1/CoreAnimationAdvancedTechniques4_1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreAnimationAdvancedTechniques3_4/CoreAnimationAdvancedTechniques3_4.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreAnimationAdvancedTechniques3_3/CoreAnimationAdvancedTechniques3_3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreAnimationAdvancedTechniques3_2/CoreAnimationAdvancedTechniques3_2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreAnimationAdvancedTechniques3_1/CoreAnimationAdvancedTechniques3_1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreAnimationAdvancedTechniques2_2/CoreAnimationAdvancedTechniques2_2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreAnimationAdvancedTechniques2_1/CoreAnimationAdvancedTechniques2_1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreAnimationAdvancedTechniques1_3/CoreAnimationAdvancedTechniques1_3.xcodeproj">
+   </FileRef>
+</Workspace>
