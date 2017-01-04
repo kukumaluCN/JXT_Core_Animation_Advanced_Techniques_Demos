@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  CoreAnimationAdvancedTechniques4_1
+//  CoreAnimationAdvancedTechniques4_2
 //
 //  Created by JXT on 2017/1/4.
 //  Copyright © 2017年 JXT. All rights reserved.
@@ -24,9 +24,8 @@
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     
-    //CALayer有一个叫做 conrnerRadius 的属性控制着图层角的曲率。它是一个浮 点数，默认为0(为0的时候就是直角)，但是你可以把它设置成任意值。默认情况 下，这个曲率值只影响背景颜色而不影响背景图片或是子图层。不过，如果把 masksToBounds 设置成YES的话，图层里面的所有东西都会被截取
     
-    //清单4.1 设置 cornerRadius 和 masksToBounds
+    //清单4.2 加上边框
     UIView *testView1 = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 150, 150)];
     testView1.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:testView1];
@@ -42,13 +41,36 @@
     subView2.backgroundColor = [UIColor redColor];
     [testView2 addSubview:subView2];
     
-    
+    //set the corner radius on our layers
     testView1.layer.cornerRadius = 20.0f;
     testView2.layer.cornerRadius = 20.0f;
     
+    //add a border to our layers
+    testView1.layer.borderWidth = 5.0f;
+    testView2.layer.borderWidth = 5.0f;
+    
+    //enable clipping on the second layer
     testView2.layer.masksToBounds = YES;
     
-//    testView1.clipsToBounds = YES;
+    
+    //CGColorRef 在引用/释放时候的行为表现得与 极其相 似。但是Objective-C语法并不支持这一做法，所以 属性即便是强引 用也只能通过assign关键字来声明。
+    
+    //边框是绘制在图层边界里面的，而且在所有子内容之前，也在子图层之 前。
+    //和视图层级无关
+    
+    
+    //图4.4 边框是跟随图层的边界变化的，而不是图层里面的内容
+    UIImage *image = [UIImage imageNamed:@"snowman"];
+    UIView *layerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
+    layerView.center = CGPointMake(kScreenWidth*0.5, 600);
+    layerView.layer.contents = (__bridge id)image.CGImage;
+    layerView.layer.contentsGravity = kCAGravityCenter;
+    layerView.layer.contentsScale = 2;
+    
+    layerView.layer.cornerRadius = 20.f;
+    layerView.layer.borderWidth = 5.f;
+    [self.view addSubview:layerView];
+    
 }
 
 
