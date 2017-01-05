@@ -166,12 +166,14 @@
     //create a square shadow
     CGMutablePathRef squarePath = CGPathCreateMutable();
     CGPathAddRect(squarePath, NULL, layerView.bounds);
-    layerView.layer.shadowPath = squarePath; CGPathRelease(squarePath);
+    layerView.layer.shadowPath = squarePath;
+    CGPathRelease(squarePath);
     
     //create a circular shadow
     CGMutablePathRef circlePath = CGPathCreateMutable();
     CGPathAddEllipseInRect(circlePath, NULL, layerView2.bounds);
-    layerView2.layer.shadowPath = circlePath; CGPathRelease(circlePath);
+    layerView2.layer.shadowPath = circlePath;
+    CGPathRelease(circlePath);
     
     //如果是一个矩形或者是圆，用CGPath会相当简单明了。但是如果是更加复杂一点的图形，UIBezierPath类会更合适，它是一个由UIKit提供的在CGPath基础上的Objective-C包装类。
     
