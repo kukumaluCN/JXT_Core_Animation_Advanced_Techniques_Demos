@@ -13,6 +13,9 @@
 		A728E13D1E1E3A5800FB7E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A728E13B1E1E3A5800FB7E51 /* Main.storyboard */; };
 		A728E13F1E1E3A5800FB7E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A728E13E1E1E3A5800FB7E51 /* Assets.xcassets */; };
 		A728E1421E1E3A5800FB7E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A728E1401E1E3A5800FB7E51 /* LaunchScreen.storyboard */; };
+		A728E1991E239A5100FB7E51 /* digit.png in Resources */ = {isa = PBXBuildFile; fileRef = A728E1981E239A5100FB7E51 /* digit.png */; };
+		A728E19B1E239A9900FB7E51 /* digit_small.png in Resources */ = {isa = PBXBuildFile; fileRef = A728E19A1E239A9900FB7E51 /* digit_small.png */; };
+		A728E1C01E24B83500FB7E51 /* digit_black.png in Resources */ = {isa = PBXBuildFile; fileRef = A728E1BF1E24B83500FB7E51 /* digit_black.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		A728E13E1E1E3A5800FB7E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A728E1411E1E3A5800FB7E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A728E1431E1E3A5800FB7E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A728E1981E239A5100FB7E51 /* digit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digit.png; sourceTree = "<group>"; };
+		A728E19A1E239A9900FB7E51 /* digit_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digit_small.png; sourceTree = "<group>"; };
+		A728E1BF1E24B83500FB7E51 /* digit_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digit_black.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				A728E1361E1E3A5800FB7E51 /* AppDelegate.m */,
 				A728E1381E1E3A5800FB7E51 /* ViewController.h */,
 				A728E1391E1E3A5800FB7E51 /* ViewController.m */,
+				A728E1981E239A5100FB7E51 /* digit.png */,
+				A728E19A1E239A9900FB7E51 /* digit_small.png */,
+				A728E1BF1E24B83500FB7E51 /* digit_black.png */,
 				A728E13B1E1E3A5800FB7E51 /* Main.storyboard */,
 				A728E13E1E1E3A5800FB7E51 /* Assets.xcassets */,
 				A728E1401E1E3A5800FB7E51 /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A728E1421E1E3A5800FB7E51 /* LaunchScreen.storyboard in Resources */,
+				A728E1991E239A5100FB7E51 /* digit.png in Resources */,
 				A728E13F1E1E3A5800FB7E51 /* Assets.xcassets in Resources */,
+				A728E1C01E24B83500FB7E51 /* digit_black.png in Resources */,
 				A728E13D1E1E3A5800FB7E51 /* Main.storyboard in Resources */,
+				A728E19B1E239A9900FB7E51 /* digit_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

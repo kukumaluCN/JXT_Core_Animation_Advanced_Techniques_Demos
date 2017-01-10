@@ -333,6 +333,7 @@
 				A718FBAC1DF659790075F387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
