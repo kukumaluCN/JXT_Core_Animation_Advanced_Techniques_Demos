@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70E5F131E28D6FF00CB3AAB /* XYZ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A70E5F121E28D6FF00CB3AAB /* XYZ.jpeg */; };
 		A728E23C1E25D6F500FB7E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A728E23B1E25D6F500FB7E51 /* main.m */; };
 		A728E23F1E25D6F500FB7E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A728E23E1E25D6F500FB7E51 /* AppDelegate.m */; };
 		A728E2421E25D6F500FB7E51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A728E2411E25D6F500FB7E51 /* ViewController.m */; };
 		A728E2451E25D6F500FB7E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A728E2431E25D6F500FB7E51 /* Main.storyboard */; };
 		A728E2471E25D6F500FB7E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A728E2461E25D6F500FB7E51 /* Assets.xcassets */; };
 		A728E24A1E25D6F500FB7E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A728E2481E25D6F500FB7E51 /* LaunchScreen.storyboard */; };
+		A728E2521E2636CF00FB7E51 /* snowman.png in Resources */ = {isa = PBXBuildFile; fileRef = A728E2511E2636CF00FB7E51 /* snowman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A70E5F121E28D6FF00CB3AAB /* XYZ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = XYZ.jpeg; sourceTree = "<group>"; };
 		A728E2371E25D6F500FB7E51 /* CoreAnimationAdvancedTechniques5_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationAdvancedTechniques5_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A728E23B1E25D6F500FB7E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A728E23D1E25D6F500FB7E51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		A728E2461E25D6F500FB7E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A728E2491E25D6F500FB7E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A728E24B1E25D6F500FB7E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A728E2511E2636CF00FB7E51 /* snowman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				A728E23E1E25D6F500FB7E51 /* AppDelegate.m */,
 				A728E2401E25D6F500FB7E51 /* ViewController.h */,
 				A728E2411E25D6F500FB7E51 /* ViewController.m */,
+				A70E5F121E28D6FF00CB3AAB /* XYZ.jpeg */,
+				A728E2511E2636CF00FB7E51 /* snowman.png */,
 				A728E2431E25D6F500FB7E51 /* Main.storyboard */,
 				A728E2461E25D6F500FB7E51 /* Assets.xcassets */,
 				A728E2481E25D6F500FB7E51 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A728E24A1E25D6F500FB7E51 /* LaunchScreen.storyboard in Resources */,
+				A70E5F131E28D6FF00CB3AAB /* XYZ.jpeg in Resources */,
+				A728E2521E2636CF00FB7E51 /* snowman.png in Resources */,
 				A728E2471E25D6F500FB7E51 /* Assets.xcassets in Resources */,
 				A728E2451E25D6F500FB7E51 /* Main.storyboard in Resources */,
 			);
@@ -309,6 +317,7 @@
 				A728E2501E25D6F500FB7E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
