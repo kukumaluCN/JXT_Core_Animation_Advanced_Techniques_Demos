@@ -53,7 +53,7 @@ static CGFloat const kSideLength = 200.0;
     
     //构建正方体
     //set up the container sublayer transform
-    __block CATransform3D perspective = CATransform3DIdentity;
+    /*__block*/ CATransform3D perspective = CATransform3DIdentity;
     perspective.m34 = -1.0 / 500.0;//透视
     self.containerView.layer.sublayerTransform = perspective;//作用于所有子图层
     
