@@ -11,7 +11,6 @@
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define kScreenCenter CGPointMake(kScreenWidth*0.5, kScreenHeight*0.5)
-#define kDegreesToRadian(x) (M_PI * (x) / 180.0)
 
 #define RADIANS_TO_DEGREES(x) ((x)/M_PI*180.0)
 #define DEGREES_TO_RADIANS(x) ((x)/180.0*M_PI)
