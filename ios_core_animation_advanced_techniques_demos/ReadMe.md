@@ -53,7 +53,7 @@ Hit Testing（convertPoint）
 仿射变换（2D矩阵）
 
 - CoreAnimationAdvancedTechniques5_2   
-3D变换（3D矩阵，JXTTransform3DMakePerspectiveRotation，JXTPrintCATransform3D）
+3D变换（3D矩阵，透视旋转，系统3D变换函数自实现）
 
 - CoreAnimationAdvancedTechniques5_3  
 固体对象（正方体绘制，OpenGL添加光影）
