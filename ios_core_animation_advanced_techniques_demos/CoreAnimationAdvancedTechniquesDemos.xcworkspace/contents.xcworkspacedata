@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Readme.rtf">
+      location = "group:ReadMe.md">
    </FileRef>
    <FileRef
       location = "group:CoreAnimationAdvancedTechniques6_1/CoreAnimationAdvancedTechniques6_1.xcodeproj">
