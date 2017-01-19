@@ -14,6 +14,8 @@
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define kScreenCenter CGPointMake(kScreenWidth*0.5, kScreenHeight*0.5)
 
+//GLK_INLINE float GLKMathRadiansToDegrees(float radians) { return radians * (180 / M_PI); };
+//GLK_INLINE float GLKMathDegreesToRadians(float degrees) { return degrees * (M_PI / 180); };
 #define RADIANS_TO_DEGREES(x) ((x)/M_PI*180.0)
 #define DEGREES_TO_RADIANS(x) ((x)/180.0*M_PI)
 

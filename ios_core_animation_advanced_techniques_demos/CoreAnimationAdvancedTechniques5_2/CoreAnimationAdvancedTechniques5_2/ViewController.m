@@ -12,10 +12,12 @@
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define kScreenCenter CGPointMake(kScreenWidth*0.5, kScreenHeight*0.5)
 
+//GLK_INLINE float GLKMathRadiansToDegrees(float radians) { return radians * (180 / M_PI); };
+//GLK_INLINE float GLKMathDegreesToRadians(float degrees) { return degrees * (M_PI / 180); };
 #define RADIANS_TO_DEGREES(x) ((x)/M_PI*180.0)
 #define DEGREES_TO_RADIANS(x) ((x)/180.0*M_PI)
 
-#define kPartEnabled 6
+#define kPartEnabled 2
 
 @interface ViewController () 
 
@@ -142,7 +144,7 @@
     JXTPrintCATransform3D(layerView.layer.transform);
     
     //4.旋转
-    //4.1.Z 平面旋转 [m11X+m21Y+m31Z+m41 m12X+m22Y+m32Z+m42 m13X+m23Y+m33Z+m43 m14+m24+m34+m44]
+    //4.1.Z 平面旋转探究 [m11X+m21Y+m31Z+m41 m12X+m22Y+m32Z+m42 m13X+m23Y+m33Z+m43 m14+m24+m34+m44]
     //[m11X+m21Y m12X+m22Y m13X+m23Y 1]
     //[Xcosɵ - Ysinɵ    Xsinɵ + Ycosɵ  1]
     //m11=cosɵ m21=-sinɵ m12=sinɵ m22=cosɵ
@@ -153,6 +155,53 @@
     layerView.layer.transform = CATransform3DMakeRotation(DEGREES_TO_RADIANS(30), 1, 0, 0);
     NSLog(@"CATransform3DMakeRotation:");
     JXTPrintCATransform3D(layerView.layer.transform);
+    
+    
+    //透视
+    CATransform3D t0 = CATransform3DIdentity;
+    //正负和旋转方向有关，如果角度为正，顺时针旋转，这里应该为负值。
+    t0.m34 = - 1.0 / 500;
+    
+    //4.2.X 水平轴旋转
+    layerView.layer.transform = JXTGLKTransform3DMakeXRotation(DEGREES_TO_RADIANS(45));
+    NSLog(@"JXTGLKTransform3DMakeXRotation:");
+    JXTPrintCATransform3D(layerView.layer.transform);
+    layerView.layer.transform = JXTGLKTransform3DXRotate(t0, DEGREES_TO_RADIANS(45));
+    NSLog(@"JXTGLKTransform3DXRotate:");
+    JXTPrintCATransform3D(layerView.layer.transform);
+    
+    //4.3.Y 垂直轴旋转
+    layerView.layer.transform = JXTGLKTransform3DMakeYRotation(DEGREES_TO_RADIANS(45));
+    NSLog(@"JXTGLKTransform3DMakeYRotation:");
+    JXTPrintCATransform3D(layerView.layer.transform);
+    layerView.layer.transform = JXTGLKTransform3DYRotate(t0, DEGREES_TO_RADIANS(45));
+    NSLog(@"JXTGLKTransform3DYRotate:");
+    JXTPrintCATransform3D(layerView.layer.transform);
+    
+    //4.4.Z 平面旋转
+    layerView.layer.transform = JXTGLKTransform3DMakeZRotation(DEGREES_TO_RADIANS(45));
+    NSLog(@"JXTGLKTransform3DMakeZRotation:");
+    JXTPrintCATransform3D(layerView.layer.transform);
+    layerView.layer.transform = JXTGLKTransform3DZRotate(t0, DEGREES_TO_RADIANS(45));
+    NSLog(@"JXTGLKTransform3DZRotate:");
+    JXTPrintCATransform3D(layerView.layer.transform);
+    
+    //4.5. 指定轴旋转
+    layerView.layer.transform = JXTGLKTransform3DRotate(t0, DEGREES_TO_RADIANS(45), -1, 0, 0);
+    NSLog(@"JXTGLKTransform3DRotate:");
+    JXTPrintCATransform3D(layerView.layer.transform);
+    
+    //4.6. 透视旋转
+    layerView.layer.transform = JXTGLKTransform3DMakePerspectiveRotation(DEGREES_TO_RADIANS(60), 500, 0, -1, 0);
+    NSLog(@"JXTGLKTransform3DMakePerspectiveRotation:");
+    JXTPrintCATransform3D(layerView.layer.transform);
+    
+    
+//    float aspect = fabsf(self.view.bounds.size.width /self.view.bounds.size.height);
+//    
+//    layerView.layer.transform = JXTGLKTransform3DMakePerspective(DEGREES_TO_RADIANS(15), 0.5, 1, 10);
+//    JXTPrintCATransform3D(layerView.layer.transform);
+    
     
 #endif
     
@@ -251,6 +300,8 @@
     
 }
 
+#pragma mark - 尝试实现系统3D变换函数
+//仿CATransform3DMakeTranslation
 CATransform3D JXTTransform3DMakeTranslation(CGFloat tx, CGFloat ty, CGFloat tz)
 {
     CATransform3D transform = CATransform3DIdentity;
@@ -259,6 +310,7 @@ CATransform3D JXTTransform3DMakeTranslation(CGFloat tx, CGFloat ty, CGFloat tz)
     transform.m43 = tz;
     return transform;
 }
+//仿CATransform3DMakeScale
 CATransform3D JXTTransform3DMakeScale(CGFloat sx, CGFloat sy, CGFloat sz)
 {
     CATransform3D transform = CATransform3DIdentity;
@@ -267,7 +319,7 @@ CATransform3D JXTTransform3DMakeScale(CGFloat sx, CGFloat sy, CGFloat sz)
     transform.m33 = sz;
     return transform;
 }
-
+//带透视效果的旋转
 CATransform3D JXTTransform3DMakePerspectiveRotation(CGFloat angle, CGFloat distance, CGFloat x, CGFloat y, CGFloat z)
 {
     CATransform3D transform = CATransform3DIdentity;
@@ -276,6 +328,7 @@ CATransform3D JXTTransform3DMakePerspectiveRotation(CGFloat angle, CGFloat dista
     transform = CATransform3DRotate(transform, angle, x, y, z);
     return transform;
 }
+//仿CATransform3DMakeRotation(angle, 0, 0, 1)
 CATransform3D JXTTransform3DMakeRotationZ(CGFloat angle)
 {
     CATransform3D transform = CATransform3DIdentity;
@@ -292,10 +345,166 @@ CATransform3D JXTTransform3DMakeRotationZ(CGFloat angle)
     return transform;
 }
 
+#pragma mark 下列算法改自<GLKit/GLKMatrix4.h>
+//仿CATransform3DMakeRotation/CATransform3DRotate
+CATransform3D JXTGLKTransform3DMakeXRotation(CGFloat radians)
+{
+    CGFloat cosNum = cos(radians);
+    CGFloat sinNum = sin(radians);
+    
+    CATransform3D transform =
+    {
+        1.0f, 0.0f, 0.0f, 0.0f,
+        0.0f, cosNum, sinNum, 0.0f,
+        0.0f, -sinNum, cosNum, 0.0f,
+        0.0f, 0.0f, 0.0f, 1.0f
+    };
+    return transform;
+}
+CATransform3D JXTGLKTransform3DXRotate(CATransform3D t, CGFloat radians)
+{
+    CATransform3D transform = JXTGLKTransform3DMakeXRotation(radians);
+    return CATransform3DConcat(transform, t);//顺序不可变 t = a * b
+}
 
+CATransform3D JXTGLKTransform3DMakeYRotation(CGFloat radians)
+{
+    CGFloat cosNum = cos(radians);
+    CGFloat sinNum = sin(radians);
+    
+    CATransform3D transform =
+    {
+        cosNum, 0.0f, -sinNum, 0.0f,
+        0.0f, 1.0f, 0.0f, 0.0f,
+        sinNum, 0.0f, cosNum, 0.0f,
+        0.0f, 0.0f, 0.0f, 1.0f
+    };
+    return transform;
+}
+CATransform3D JXTGLKTransform3DYRotate(CATransform3D t, CGFloat radians)
+{
+    CATransform3D transform = JXTGLKTransform3DMakeYRotation(radians);
+    return CATransform3DConcat(transform, t);//顺序不可变 t = a * b
+}
+
+CATransform3D JXTGLKTransform3DMakeZRotation(CGFloat radians)
+{
+    CGFloat cosNum = cos(radians);
+    CGFloat sinNum = sin(radians);
+    
+    CATransform3D transform =
+    {
+        cosNum, sinNum, 0.0f, 0.0f,
+        -sinNum, cosNum, 0.0f, 0.0f,
+        0.0f, 0.0f, 1.0f, 0.0f,
+        0.0f, 0.0f, 0.0f, 1.0f
+    };
+    return transform;
+}
+CATransform3D JXTGLKTransform3DZRotate(CATransform3D t, CGFloat radians)
+{
+    CATransform3D transform = JXTGLKTransform3DMakeZRotation(radians);
+    return CATransform3DConcat(transform, t);//顺序不可变 t = a * b
+}
+
+//仿CATransform3DRotate
+CATransform3D JXTGLKTransform3DRotate(CATransform3D t, CGFloat radians, CGFloat x, CGFloat y, CGFloat z)
+{
+    CATransform3D transform = CATransform3DIdentity;
+    
+    if (x != 0 && y == 0 && z == 0)
+    {
+        radians = x > 0 ? radians : -radians;
+        transform = JXTGLKTransform3DXRotate(t, radians);
+    }
+    else if (x == 0 && y != 0 && z == 0)
+    {
+        radians = y > 0 ? radians : -radians;
+        transform = JXTGLKTransform3DYRotate(t, radians);
+    }
+    else if (x == 0 && y == 0 && z != 0)
+    {
+        radians = z > 0 ? radians : -radians;
+        transform = JXTGLKTransform3DZRotate(t, radians);
+    }
+    else
+    {
+        transform = CATransform3DConcat(transform, t);
+    }
+    return transform;
+}
+
+CATransform3D JXTGLKTransform3DMakePerspectiveRotation(CGFloat angle, CGFloat distance, CGFloat x, CGFloat y, CGFloat z)
+{
+    CATransform3D transform = CATransform3DIdentity;
+    //正负和旋转方向有关，如果角度为正，顺时针旋转，这里应该为负值。
+    transform.m34 = - 1.0 / distance;
+    
+    transform = JXTGLKTransform3DRotate(transform, angle, x, y, z);
+    return transform;
+}
+
+/*
+CATransform3D JXTGLKTransform3DMakePerspective(float fovyRadians, float aspect, float nearZ, float farZ)
+{
+    float cotan = 1.0f / tanf(fovyRadians / 2.0f);
+    
+    CATransform3D transform =
+    {
+        cotan / aspect, 0.0f, 0.0f, 0.0f,
+        0.0f, cotan, 0.0f, 0.0f,
+        0.0f, 0.0f, (farZ + nearZ) / (nearZ - farZ), -1.0f,
+        0.0f, 0.0f, (2.0f * farZ * nearZ) / (nearZ - farZ), 0.0f
+    };
+    return transform;
+}
+
+GLK_INLINE GLKMatrix4 GLKMatrix4MakeFrustum(float left, float right,
+                                            float bottom, float top,
+                                            float nearZ, float farZ)
+{
+    float ral = right + left;
+    float rsl = right - left;
+    float tsb = top - bottom;
+    float tab = top + bottom;
+    float fan = farZ + nearZ;
+    float fsn = farZ - nearZ;
+    
+    GLKMatrix4 m = { 2.0f * nearZ / rsl, 0.0f, 0.0f, 0.0f,
+        0.0f, 2.0f * nearZ / tsb, 0.0f, 0.0f,
+        ral / rsl, tab / tsb, -fan / fsn, -1.0f,
+        0.0f, 0.0f, (-2.0f * farZ * nearZ) / fsn, 0.0f };
+    
+    return m;
+}
+GLK_INLINE GLKMatrix4 GLKMatrix4MakeOrtho(float left, float right,
+                                          float bottom, float top,
+                                          float nearZ, float farZ)
+{
+    float ral = right + left;
+    float rsl = right - left;
+    float tab = top + bottom;
+    float tsb = top - bottom;
+    float fan = farZ + nearZ;
+    float fsn = farZ - nearZ;
+    
+    GLKMatrix4 m = { 2.0f / rsl, 0.0f, 0.0f, 0.0f,
+        0.0f, 2.0f / tsb, 0.0f, 0.0f,
+        0.0f, 0.0f, -2.0f / fsn, 0.0f,
+        -ral / rsl, -tab / tsb, -fan / fsn, 1.0f };
+    
+    return m;
+}
+*/
+
+#pragma mark 打印CATransform3D，不用NSValue试因为打印出的是二进制数不够直观
 static inline void JXTPrintCATransform3D(CATransform3D t)
 {
-    NSLog(@"\n%11lf %11lf %11lf %11lf\n%11lf %11lf %11lf %11lf\n%11lf %11lf %11lf %11lf\n%11lf %11lf %11lf %11lf\n", t.m11, t.m12, t.m13, t.m14, t.m21, t.m22, t.m23, t.m24, t.m31, t.m32, t.m33, t.m34, t.m41, t.m42, t.m43, t.m44);
+    NSLog(@"\n%11lf %11lf %11lf %11lf\n%11lf %11lf %11lf %11lf\n%11lf %11lf %11lf %11lf\n%11lf %11lf %11lf %11lf\n",
+          t.m11, t.m12, t.m13, t.m14,
+          t.m21, t.m22, t.m23, t.m24,
+          t.m31, t.m32, t.m33, t.m34,
+          t.m41, t.m42, t.m43, t.m44);
 }
 
 
