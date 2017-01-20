@@ -57,3 +57,8 @@ Hit Testing（convertPoint）
 
 - CoreAnimationAdvancedTechniques5_3  
 固体对象（正方体绘制，OpenGL添加光影）
+
+### 6.专用图层
+- CoreAnimationAdvancedTechniques6_1  
+CAShapeLayer（火柴人绘制，圆角矩形）
+
