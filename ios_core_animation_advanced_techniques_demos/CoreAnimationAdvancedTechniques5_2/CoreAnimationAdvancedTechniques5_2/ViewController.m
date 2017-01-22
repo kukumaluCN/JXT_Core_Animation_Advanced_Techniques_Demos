@@ -444,6 +444,25 @@ CATransform3D JXTGLKTransform3DMakePerspectiveRotation(CGFloat angle, CGFloat di
     return transform;
 }
 
+//CATransform3D JXTGLKTransform3DMakeFrustum(float left, float right,
+//                                            float bottom, float top,
+//                                            float nearZ, float farZ)
+//{
+//    float ral = right + left;
+//    float rsl = right - left;
+//    float tsb = top - bottom;
+//    float tab = top + bottom;
+//    float fan = farZ + nearZ;
+//    float fsn = farZ - nearZ;
+//    
+//    CATransform3D m = { 2.0f * nearZ / rsl, 0.0f, 0.0f, 0.0f,
+//        0.0f, 2.0f * nearZ / tsb, 0.0f, 0.0f,
+//        ral / rsl, tab / tsb, -fan / fsn, -1.0f,
+//        0.0f, 0.0f, (-2.0f * farZ * nearZ) / fsn, 0.0f };
+//    
+//    return m;
+//}
+
 /*
 CATransform3D JXTGLKTransform3DMakePerspective(float fovyRadians, float aspect, float nearZ, float farZ)
 {
@@ -459,24 +478,6 @@ CATransform3D JXTGLKTransform3DMakePerspective(float fovyRadians, float aspect, 
     return transform;
 }
 
-GLK_INLINE GLKMatrix4 GLKMatrix4MakeFrustum(float left, float right,
-                                            float bottom, float top,
-                                            float nearZ, float farZ)
-{
-    float ral = right + left;
-    float rsl = right - left;
-    float tsb = top - bottom;
-    float tab = top + bottom;
-    float fan = farZ + nearZ;
-    float fsn = farZ - nearZ;
-    
-    GLKMatrix4 m = { 2.0f * nearZ / rsl, 0.0f, 0.0f, 0.0f,
-        0.0f, 2.0f * nearZ / tsb, 0.0f, 0.0f,
-        ral / rsl, tab / tsb, -fan / fsn, -1.0f,
-        0.0f, 0.0f, (-2.0f * farZ * nearZ) / fsn, 0.0f };
-    
-    return m;
-}
 GLK_INLINE GLKMatrix4 GLKMatrix4MakeOrtho(float left, float right,
                                           float bottom, float top,
                                           float nearZ, float farZ)
