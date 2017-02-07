@@ -13,6 +13,12 @@
 		A70E5FE91E2FCC3D00CB3AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70E5FE71E2FCC3D00CB3AAB /* Main.storyboard */; };
 		A70E5FEB1E2FCC3D00CB3AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70E5FEA1E2FCC3D00CB3AAB /* Assets.xcassets */; };
 		A70E5FEE1E2FCC3D00CB3AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70E5FEC1E2FCC3D00CB3AAB /* LaunchScreen.storyboard */; };
+		A7763E311E34C87300620F7B /* fillrule-evenodd.png in Resources */ = {isa = PBXBuildFile; fileRef = A7763E2F1E34C87300620F7B /* fillrule-evenodd.png */; };
+		A7763E321E34C87300620F7B /* fillrule-nonzero.png in Resources */ = {isa = PBXBuildFile; fileRef = A7763E301E34C87300620F7B /* fillrule-nonzero.png */; };
+		A7763E351E34C90E00620F7B /* linecap.png in Resources */ = {isa = PBXBuildFile; fileRef = A7763E331E34C90E00620F7B /* linecap.png */; };
+		A7763E361E34C90E00620F7B /* linejoin.png in Resources */ = {isa = PBXBuildFile; fileRef = A7763E341E34C90E00620F7B /* linejoin.png */; };
+		A78B46EF1E497776003EBE61 /* miterLimit-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A78B46ED1E497776003EBE61 /* miterLimit-1.gif */; };
+		A78B46F01E497776003EBE61 /* miterLimit-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A78B46EE1E497776003EBE61 /* miterLimit-2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		A70E5FEA1E2FCC3D00CB3AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A70E5FED1E2FCC3D00CB3AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A70E5FEF1E2FCC3D00CB3AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7763E2F1E34C87300620F7B /* fillrule-evenodd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fillrule-evenodd.png"; sourceTree = "<group>"; };
+		A7763E301E34C87300620F7B /* fillrule-nonzero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fillrule-nonzero.png"; sourceTree = "<group>"; };
+		A7763E331E34C90E00620F7B /* linecap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linecap.png; sourceTree = "<group>"; };
+		A7763E341E34C90E00620F7B /* linejoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linejoin.png; sourceTree = "<group>"; };
+		A78B46ED1E497776003EBE61 /* miterLimit-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "miterLimit-1.gif"; sourceTree = "<group>"; };
+		A78B46EE1E497776003EBE61 /* miterLimit-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "miterLimit-2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				A70E5FE21E2FCC3D00CB3AAB /* AppDelegate.m */,
 				A70E5FE41E2FCC3D00CB3AAB /* ViewController.h */,
 				A70E5FE51E2FCC3D00CB3AAB /* ViewController.m */,
+				A7763E2F1E34C87300620F7B /* fillrule-evenodd.png */,
+				A7763E301E34C87300620F7B /* fillrule-nonzero.png */,
+				A7763E331E34C90E00620F7B /* linecap.png */,
+				A7763E341E34C90E00620F7B /* linejoin.png */,
+				A78B46ED1E497776003EBE61 /* miterLimit-1.gif */,
+				A78B46EE1E497776003EBE61 /* miterLimit-2.gif */,
 				A70E5FE71E2FCC3D00CB3AAB /* Main.storyboard */,
 				A70E5FEA1E2FCC3D00CB3AAB /* Assets.xcassets */,
 				A70E5FEC1E2FCC3D00CB3AAB /* LaunchScreen.storyboard */,
@@ -137,9 +155,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7763E351E34C90E00620F7B /* linecap.png in Resources */,
+				A7763E311E34C87300620F7B /* fillrule-evenodd.png in Resources */,
+				A78B46EF1E497776003EBE61 /* miterLimit-1.gif in Resources */,
 				A70E5FEE1E2FCC3D00CB3AAB /* LaunchScreen.storyboard in Resources */,
 				A70E5FEB1E2FCC3D00CB3AAB /* Assets.xcassets in Resources */,
 				A70E5FE91E2FCC3D00CB3AAB /* Main.storyboard in Resources */,
+				A78B46F01E497776003EBE61 /* miterLimit-2.gif in Resources */,
+				A7763E361E34C90E00620F7B /* linejoin.png in Resources */,
+				A7763E321E34C87300620F7B /* fillrule-nonzero.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,6 +333,7 @@
 				A70E5FF41E2FCC3D00CB3AAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

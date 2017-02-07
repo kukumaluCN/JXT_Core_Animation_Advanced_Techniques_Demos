@@ -60,5 +60,7 @@ Hit Testing（convertPoint）
 
 ### 6.专用图层
 - CoreAnimationAdvancedTechniques6_1  
-CAShapeLayer（火柴人绘制，圆角矩形）
+CAShapeLayer（火柴人绘制，圆角矩形，CAShapeLayer属性详解）
+
+
 
