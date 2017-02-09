@@ -65,5 +65,8 @@ CAShapeLayer（火柴人绘制，圆角矩形，CAShapeLayer属性详解）
 - CoreAnimationAdvancedTechniques6_2  
 CATextLayer（CGFontRef，CTFontRef，LayerLabel）
 
+- CoreAnimationAdvancedTechniques6_3  
+CATransformLayer（CATransformLayer构造正方体）
+
 
 
