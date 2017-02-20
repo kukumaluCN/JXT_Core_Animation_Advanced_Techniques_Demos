@@ -5,6 +5,87 @@
       location = "group:ReadMe.md">
    </FileRef>
    <FileRef
+      location = "group:CoreAnimationAdvancedTechniques6_6/CoreAnimationAdvancedTechniques6_6.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:ReflectionView-master"
+      name = "ReflectionView">
+      <Group
+         location = "group:Examples"
+         name = "Examples">
+         <Group
+            location = "group:ReflectionViewExample"
+            name = "ReflectionViewExample">
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+               <FileRef
+                  location = "group:MainWindow.xib">
+               </FileRef>
+               <FileRef
+                  location = "group:ReflectionViewExampleViewController.xib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images"
+               name = "Images">
+               <FileRef
+                  location = "group:forest.jpg">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ReflectionViewExample-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ReflectionViewExample-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:ReflectionViewExampleAppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:ReflectionViewExampleAppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:ReflectionViewExampleViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ReflectionViewExampleViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ReflectionViewExample.xcodeproj">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:LICENCE.md">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:ReflectionView"
+         name = "ReflectionView">
+         <FileRef
+            location = "group:ReflectionView.h">
+         </FileRef>
+         <FileRef
+            location = "group:ReflectionView.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ReflectionView.podspec.json">
+      </FileRef>
+   </Group>
+   <FileRef
       location = "group:CoreAnimationAdvancedTechniques6_5/CoreAnimationAdvancedTechniques6_5.xcodeproj">
    </FileRef>
    <FileRef

@@ -18,7 +18,7 @@ Custom Drawing（CALayerDelegate适配）
 
 ### 3.图层几何学
 - CoreAnimationAdvancedTechniques3_1  
-布局
+布局（frame与bounds，position，transform的关系）
 
 - CoreAnimationAdvancedTechniques3_2  
 锚点（模拟时钟）
@@ -69,7 +69,12 @@ CATextLayer（CGFontRef，CTFontRef，LayerLabel）
 CATransformLayer（CATransformLayer构造正方体）  
 
 - CoreAnimationAdvancedTechniques6_4  
-CAGradientLayer（CAGradientLayer色彩渐变，渐变环形进度条）
+CAGradientLayer（CAGradientLayer色彩渐变，渐变环形进度条）  
+
+- CoreAnimationAdvancedTechniques6_5  
+CAReplicatorLayer（CAReplicatorLayer图层复制，模仿系统indicatorView，反射效果）  
+
+
 
 
 

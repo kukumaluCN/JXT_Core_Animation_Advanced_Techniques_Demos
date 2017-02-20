@@ -13,6 +13,9 @@
 		A7491A101E59C5EB004F7AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7491A0E1E59C5EB004F7AF3 /* Main.storyboard */; };
 		A7491A121E59C5EB004F7AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7491A111E59C5EB004F7AF3 /* Assets.xcassets */; };
 		A7491A151E59C5EB004F7AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7491A131E59C5EB004F7AF3 /* LaunchScreen.storyboard */; };
+		A7491A441E5B3A82004F7AF3 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7491A431E5B3A82004F7AF3 /* ReflectionView.m */; };
+		A7491A461E5B3B14004F7AF3 /* Anchor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7491A451E5B3B14004F7AF3 /* Anchor@2x.png */; };
+		A7491A481E5B3E75004F7AF3 /* btn_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A7491A471E5B3E75004F7AF3 /* btn_image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		A7491A111E59C5EB004F7AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7491A141E59C5EB004F7AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7491A161E59C5EB004F7AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7491A421E5B3A82004F7AF3 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		A7491A431E5B3A82004F7AF3 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		A7491A451E5B3B14004F7AF3 /* Anchor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anchor@2x.png"; sourceTree = "<group>"; };
+		A7491A471E5B3E75004F7AF3 /* btn_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,10 @@
 				A7491A091E59C5EB004F7AF3 /* AppDelegate.m */,
 				A7491A0B1E59C5EB004F7AF3 /* ViewController.h */,
 				A7491A0C1E59C5EB004F7AF3 /* ViewController.m */,
+				A7491A421E5B3A82004F7AF3 /* ReflectionView.h */,
+				A7491A431E5B3A82004F7AF3 /* ReflectionView.m */,
+				A7491A471E5B3E75004F7AF3 /* btn_image.png */,
+				A7491A451E5B3B14004F7AF3 /* Anchor@2x.png */,
 				A7491A0E1E59C5EB004F7AF3 /* Main.storyboard */,
 				A7491A111E59C5EB004F7AF3 /* Assets.xcassets */,
 				A7491A131E59C5EB004F7AF3 /* LaunchScreen.storyboard */,
@@ -138,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7491A151E59C5EB004F7AF3 /* LaunchScreen.storyboard in Resources */,
+				A7491A461E5B3B14004F7AF3 /* Anchor@2x.png in Resources */,
 				A7491A121E59C5EB004F7AF3 /* Assets.xcassets in Resources */,
+				A7491A481E5B3E75004F7AF3 /* btn_image.png in Resources */,
 				A7491A101E59C5EB004F7AF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7491A0D1E59C5EB004F7AF3 /* ViewController.m in Sources */,
+				A7491A441E5B3A82004F7AF3 /* ReflectionView.m in Sources */,
 				A7491A0A1E59C5EB004F7AF3 /* AppDelegate.m in Sources */,
 				A7491A071E59C5EB004F7AF3 /* main.m in Sources */,
 			);
@@ -309,6 +323,7 @@
 				A7491A1B1E59C5EB004F7AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
