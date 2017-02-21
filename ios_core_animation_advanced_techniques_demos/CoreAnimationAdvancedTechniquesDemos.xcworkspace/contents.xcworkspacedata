@@ -5,6 +5,9 @@
       location = "group:ReadMe.md">
    </FileRef>
    <FileRef
+      location = "group:CoreAnimationAdvancedTechniques6_7/CoreAnimationAdvancedTechniques6_7.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CoreAnimationAdvancedTechniques6_6/CoreAnimationAdvancedTechniques6_6.xcodeproj">
    </FileRef>
    <Group

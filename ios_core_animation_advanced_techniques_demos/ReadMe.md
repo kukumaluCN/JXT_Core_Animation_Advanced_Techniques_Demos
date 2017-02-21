@@ -74,6 +74,11 @@ CAGradientLayer（CAGradientLayer色彩渐变，渐变环形进度条）
 - CoreAnimationAdvancedTechniques6_5  
 CAReplicatorLayer（CAReplicatorLayer图层复制，模仿系统indicatorView，反射效果）  
 
+- CoreAnimationAdvancedTechniques6_6  
+CAScrollLayer  
+
+
+
 
 
 

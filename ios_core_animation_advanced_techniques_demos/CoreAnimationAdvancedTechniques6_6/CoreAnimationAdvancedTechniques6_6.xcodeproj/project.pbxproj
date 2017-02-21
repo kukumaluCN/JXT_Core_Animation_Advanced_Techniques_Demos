@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70C89A01E5C992100A0DE9F /* Snowman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70C899F1E5C992100A0DE9F /* Snowman@2x.png */; };
 		A7491A571E5B4532004F7AF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7491A561E5B4532004F7AF3 /* main.m */; };
 		A7491A5A1E5B4532004F7AF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7491A591E5B4532004F7AF3 /* AppDelegate.m */; };
 		A7491A5D1E5B4532004F7AF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7491A5C1E5B4532004F7AF3 /* ViewController.m */; };
 		A7491A601E5B4532004F7AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7491A5E1E5B4532004F7AF3 /* Main.storyboard */; };
 		A7491A621E5B4532004F7AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7491A611E5B4532004F7AF3 /* Assets.xcassets */; };
 		A7491A651E5B4532004F7AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7491A631E5B4532004F7AF3 /* LaunchScreen.storyboard */; };
+		A7491AC21E5C96AF004F7AF3 /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7491AC11E5C96AF004F7AF3 /* ScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A70C899F1E5C992100A0DE9F /* Snowman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snowman@2x.png"; sourceTree = "<group>"; };
 		A7491A521E5B4532004F7AF3 /* CoreAnimationAdvancedTechniques6_6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationAdvancedTechniques6_6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7491A561E5B4532004F7AF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7491A581E5B4532004F7AF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		A7491A611E5B4532004F7AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7491A641E5B4532004F7AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7491A661E5B4532004F7AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7491AC01E5C96AF004F7AF3 /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		A7491AC11E5C96AF004F7AF3 /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				A7491A591E5B4532004F7AF3 /* AppDelegate.m */,
 				A7491A5B1E5B4532004F7AF3 /* ViewController.h */,
 				A7491A5C1E5B4532004F7AF3 /* ViewController.m */,
+				A70C899F1E5C992100A0DE9F /* Snowman@2x.png */,
+				A7491AC01E5C96AF004F7AF3 /* ScrollView.h */,
+				A7491AC11E5C96AF004F7AF3 /* ScrollView.m */,
 				A7491A5E1E5B4532004F7AF3 /* Main.storyboard */,
 				A7491A611E5B4532004F7AF3 /* Assets.xcassets */,
 				A7491A631E5B4532004F7AF3 /* LaunchScreen.storyboard */,
@@ -139,6 +147,7 @@
 			files = (
 				A7491A651E5B4532004F7AF3 /* LaunchScreen.storyboard in Resources */,
 				A7491A621E5B4532004F7AF3 /* Assets.xcassets in Resources */,
+				A70C89A01E5C992100A0DE9F /* Snowman@2x.png in Resources */,
 				A7491A601E5B4532004F7AF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7491A5D1E5B4532004F7AF3 /* ViewController.m in Sources */,
+				A7491AC21E5C96AF004F7AF3 /* ScrollView.m in Sources */,
 				A7491A5A1E5B4532004F7AF3 /* AppDelegate.m in Sources */,
 				A7491A571E5B4532004F7AF3 /* main.m in Sources */,
 			);
@@ -218,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,6 +319,7 @@
 				A7491A6B1E5B4532004F7AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
