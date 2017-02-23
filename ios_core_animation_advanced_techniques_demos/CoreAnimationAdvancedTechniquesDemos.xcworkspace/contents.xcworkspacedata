@@ -5,6 +5,66 @@
       location = "group:ReadMe.md">
    </FileRef>
    <FileRef
+      location = "group:CoreAnimationAdvancedTechniques6_8/CoreAnimationAdvancedTechniques6_8.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:TiledLayer_iphone_map"
+      name = "6_7_TiledLayer_iphone_map">
+      <Group
+         location = "group:Classes"
+         name = "Classes">
+         <FileRef
+            location = "group:MapView.h">
+         </FileRef>
+         <FileRef
+            location = "group:MapView.m">
+         </FileRef>
+         <FileRef
+            location = "group:TiledDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:TiledDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:TiledLayer_iphoneAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:TiledLayer_iphoneAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:TiledLayer_iphoneViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:TiledLayer_iphoneViewController.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Images"
+         name = "Images">
+         <FileRef
+            location = "group:sf_muni.pdf">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:main.m">
+      </FileRef>
+      <FileRef
+         location = "group:MainWindow.xib">
+      </FileRef>
+      <FileRef
+         location = "group:TiledLayer_iphone-Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:TiledLayer_iphone.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:TiledLayer_iphone_Prefix.pch">
+      </FileRef>
+      <FileRef
+         location = "group:TiledLayer_iphoneViewController.xib">
+      </FileRef>
+   </Group>
+   <FileRef
       location = "group:CoreAnimationAdvancedTechniques6_7/CoreAnimationAdvancedTechniques6_7.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,7 +72,7 @@
    </FileRef>
    <Group
       location = "group:ReflectionView-master"
-      name = "ReflectionView">
+      name = "6_5_ReflectionView">
       <Group
          location = "group:Examples"
          name = "Examples">

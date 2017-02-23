@@ -77,6 +77,9 @@ CAReplicatorLayer（CAReplicatorLayer图层复制，模仿系统indicatorView，
 - CoreAnimationAdvancedTechniques6_6  
 CAScrollLayer  
 
+- CoreAnimationAdvancedTechniques6_7  
+CATiledLayer（大图小片裁剪加载）  
+
 
 
 
