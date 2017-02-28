@@ -80,6 +80,9 @@ CAScrollLayer
 - CoreAnimationAdvancedTechniques6_7  
 CATiledLayer（大图小片裁剪加载）  
 
+- CoreAnimationAdvancedTechniques6_8  
+CAEmitterLayer（粒子做火焰爆炸效果）
+
 
 
 
