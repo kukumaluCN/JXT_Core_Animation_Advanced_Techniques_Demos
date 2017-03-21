@@ -4,214 +4,248 @@
    <FileRef
       location = "group:ReadMe.md">
    </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_9/CoreAnimationAdvancedTechniques6_9.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_8/CoreAnimationAdvancedTechniques6_8.xcodeproj">
-   </FileRef>
    <Group
-      location = "group:TiledLayer_iphone_map"
-      name = "6_7_TiledLayer_iphone_map">
-      <Group
-         location = "group:Classes"
-         name = "Classes">
-         <FileRef
-            location = "group:MapView.h">
-         </FileRef>
-         <FileRef
-            location = "group:MapView.m">
-         </FileRef>
-         <FileRef
-            location = "group:TiledDelegate.h">
-         </FileRef>
-         <FileRef
-            location = "group:TiledDelegate.m">
-         </FileRef>
-         <FileRef
-            location = "group:TiledLayer_iphoneAppDelegate.h">
-         </FileRef>
-         <FileRef
-            location = "group:TiledLayer_iphoneAppDelegate.m">
-         </FileRef>
-         <FileRef
-            location = "group:TiledLayer_iphoneViewController.h">
-         </FileRef>
-         <FileRef
-            location = "group:TiledLayer_iphoneViewController.m">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:Images"
-         name = "Images">
-         <FileRef
-            location = "group:sf_muni.pdf">
-         </FileRef>
-      </Group>
+      location = "container:"
+      name = "section7">
       <FileRef
-         location = "group:main.m">
-      </FileRef>
-      <FileRef
-         location = "group:MainWindow.xib">
-      </FileRef>
-      <FileRef
-         location = "group:TiledLayer_iphone-Info.plist">
-      </FileRef>
-      <FileRef
-         location = "group:TiledLayer_iphone.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:TiledLayer_iphone_Prefix.pch">
-      </FileRef>
-      <FileRef
-         location = "group:TiledLayer_iphoneViewController.xib">
+         location = "group:CoreAnimationAdvancedTechniques7_1/CoreAnimationAdvancedTechniques7_1.xcodeproj">
       </FileRef>
    </Group>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_7/CoreAnimationAdvancedTechniques6_7.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_6/CoreAnimationAdvancedTechniques6_6.xcodeproj">
-   </FileRef>
    <Group
-      location = "group:ReflectionView-master"
-      name = "6_5_ReflectionView">
+      location = "container:"
+      name = "section6">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques6_10/CoreAnimationAdvancedTechniques6_10.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques6_9/CoreAnimationAdvancedTechniques6_9.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques6_8/CoreAnimationAdvancedTechniques6_8.xcodeproj">
+      </FileRef>
       <Group
-         location = "group:Examples"
-         name = "Examples">
+         location = "group:TiledLayer_iphone_map"
+         name = "6_7_TiledLayer_iphone_map">
          <Group
-            location = "group:ReflectionViewExample"
-            name = "ReflectionViewExample">
+            location = "group:Classes"
+            name = "Classes">
             <FileRef
-               location = "group:Default-568h@2x.png">
-            </FileRef>
-            <Group
-               location = "group:en.lproj"
-               name = "en.lproj">
-               <FileRef
-                  location = "group:InfoPlist.strings">
-               </FileRef>
-               <FileRef
-                  location = "group:MainWindow.xib">
-               </FileRef>
-               <FileRef
-                  location = "group:ReflectionViewExampleViewController.xib">
-               </FileRef>
-            </Group>
-            <Group
-               location = "group:Images"
-               name = "Images">
-               <FileRef
-                  location = "group:forest.jpg">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:main.m">
+               location = "group:MapView.h">
             </FileRef>
             <FileRef
-               location = "group:ReflectionViewExample-Info.plist">
+               location = "group:MapView.m">
             </FileRef>
             <FileRef
-               location = "group:ReflectionViewExample-Prefix.pch">
+               location = "group:TiledDelegate.h">
             </FileRef>
             <FileRef
-               location = "group:ReflectionViewExampleAppDelegate.h">
+               location = "group:TiledDelegate.m">
             </FileRef>
             <FileRef
-               location = "group:ReflectionViewExampleAppDelegate.m">
+               location = "group:TiledLayer_iphoneAppDelegate.h">
             </FileRef>
             <FileRef
-               location = "group:ReflectionViewExampleViewController.h">
+               location = "group:TiledLayer_iphoneAppDelegate.m">
             </FileRef>
             <FileRef
-               location = "group:ReflectionViewExampleViewController.m">
+               location = "group:TiledLayer_iphoneViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:TiledLayer_iphoneViewController.m">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Images"
+            name = "Images">
+            <FileRef
+               location = "group:sf_muni.pdf">
             </FileRef>
          </Group>
          <FileRef
-            location = "group:ReflectionViewExample.xcodeproj">
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:MainWindow.xib">
+         </FileRef>
+         <FileRef
+            location = "group:TiledLayer_iphone-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:TiledLayer_iphone.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:TiledLayer_iphone_Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:TiledLayer_iphoneViewController.xib">
          </FileRef>
       </Group>
       <FileRef
-         location = "group:LICENCE.md">
+         location = "group:CoreAnimationAdvancedTechniques6_7/CoreAnimationAdvancedTechniques6_7.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:README.md">
+         location = "group:CoreAnimationAdvancedTechniques6_6/CoreAnimationAdvancedTechniques6_6.xcodeproj">
       </FileRef>
       <Group
-         location = "group:ReflectionView"
-         name = "ReflectionView">
+         location = "group:ReflectionView-master"
+         name = "6_5_ReflectionView">
+         <Group
+            location = "group:Examples"
+            name = "Examples">
+            <Group
+               location = "group:ReflectionViewExample"
+               name = "ReflectionViewExample">
+               <FileRef
+                  location = "group:Default-568h@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainWindow.xib">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ReflectionViewExampleViewController.xib">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Images"
+                  name = "Images">
+                  <FileRef
+                     location = "group:forest.jpg">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:main.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ReflectionViewExample-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:ReflectionViewExample-Prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:ReflectionViewExampleAppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ReflectionViewExampleAppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ReflectionViewExampleViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ReflectionViewExampleViewController.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ReflectionViewExample.xcodeproj">
+            </FileRef>
+         </Group>
          <FileRef
-            location = "group:ReflectionView.h">
+            location = "group:LICENCE.md">
          </FileRef>
          <FileRef
-            location = "group:ReflectionView.m">
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:ReflectionView"
+            name = "ReflectionView">
+            <FileRef
+               location = "group:ReflectionView.h">
+            </FileRef>
+            <FileRef
+               location = "group:ReflectionView.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ReflectionView.podspec.json">
          </FileRef>
       </Group>
       <FileRef
-         location = "group:ReflectionView.podspec.json">
+         location = "group:CoreAnimationAdvancedTechniques6_5/CoreAnimationAdvancedTechniques6_5.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques6_4/CoreAnimationAdvancedTechniques6_4.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques6_3/CoreAnimationAdvancedTechniques6_3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques6_2/CoreAnimationAdvancedTechniques6_2.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques6_1/CoreAnimationAdvancedTechniques6_1.xcodeproj">
       </FileRef>
    </Group>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_5/CoreAnimationAdvancedTechniques6_5.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_4/CoreAnimationAdvancedTechniques6_4.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_3/CoreAnimationAdvancedTechniques6_3.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_2/CoreAnimationAdvancedTechniques6_2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques6_1/CoreAnimationAdvancedTechniques6_1.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques5_3/CoreAnimationAdvancedTechniques5_3.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques5_2/CoreAnimationAdvancedTechniques5_2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques5_1/CoreAnimationAdvancedTechniques5_1.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques4_6/CoreAnimationAdvancedTechniques4_6.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques4_5/CoreAnimationAdvancedTechniques4_5.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques4_4/CoreAnimationAdvancedTechniques4_4.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques4_3/CoreAnimationAdvancedTechniques4_3.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques4_2/CoreAnimationAdvancedTechniques4_2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques4_1/CoreAnimationAdvancedTechniques4_1.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques3_4/CoreAnimationAdvancedTechniques3_4.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques3_3/CoreAnimationAdvancedTechniques3_3.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques3_2/CoreAnimationAdvancedTechniques3_2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques3_1/CoreAnimationAdvancedTechniques3_1.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques2_2/CoreAnimationAdvancedTechniques2_2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques2_1/CoreAnimationAdvancedTechniques2_1.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreAnimationAdvancedTechniques1_3/CoreAnimationAdvancedTechniques1_3.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "section5">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques5_3/CoreAnimationAdvancedTechniques5_3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques5_2/CoreAnimationAdvancedTechniques5_2.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques5_1/CoreAnimationAdvancedTechniques5_1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "section4">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques4_6/CoreAnimationAdvancedTechniques4_6.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques4_5/CoreAnimationAdvancedTechniques4_5.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques4_4/CoreAnimationAdvancedTechniques4_4.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques4_3/CoreAnimationAdvancedTechniques4_3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques4_2/CoreAnimationAdvancedTechniques4_2.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques4_1/CoreAnimationAdvancedTechniques4_1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "section3">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques3_4/CoreAnimationAdvancedTechniques3_4.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques3_3/CoreAnimationAdvancedTechniques3_3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques3_2/CoreAnimationAdvancedTechniques3_2.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques3_1/CoreAnimationAdvancedTechniques3_1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "section2">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques2_2/CoreAnimationAdvancedTechniques2_2.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques2_1/CoreAnimationAdvancedTechniques2_1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "section1">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques1_3/CoreAnimationAdvancedTechniques1_3.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

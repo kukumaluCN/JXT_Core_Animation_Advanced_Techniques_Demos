@@ -81,7 +81,17 @@ CAScrollLayer
 CATiledLayer（大图小片裁剪加载）  
 
 - CoreAnimationAdvancedTechniques6_8  
-CAEmitterLayer（粒子做火焰爆炸效果）
+CAEmitterLayer（粒子做火焰爆炸效果）  
+
+- CoreAnimationAdvancedTechniques6_9  
+CAEAGLLayer（OpenGL绘制三角形）  
+
+- CoreAnimationAdvancedTechniques6_10    
+AVPlayerLayer（简单的视频播放）  
+
+### 7.隐式动画
+- CoreAnimationAdvancedTechniques7_1    
+CATransaction事务（隐式动画，事务） 
 
 
 
