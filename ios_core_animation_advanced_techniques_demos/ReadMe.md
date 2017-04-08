@@ -91,7 +91,10 @@ AVPlayerLayer（简单的视频播放）
 
 ### 7.隐式动画
 - CoreAnimationAdvancedTechniques7_1    
-CATransaction事务（隐式动画，事务） 
+CATransaction事务（隐式动画，事务）   
+
+- CoreAnimationAdvancedTechniques7_2    
+CATransaction完成块（隐式动画结束回调）
 
 
 

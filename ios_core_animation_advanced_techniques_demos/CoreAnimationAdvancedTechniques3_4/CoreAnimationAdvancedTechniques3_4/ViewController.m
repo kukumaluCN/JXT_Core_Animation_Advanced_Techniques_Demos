@@ -73,8 +73,8 @@
     //convert point to the white layer's coordinates
     point = [self.layerView.layer convertPoint:point fromLayer:self.view.layer];
 //    point = [self.view.layer convertPoint:point toLayer:self.layerView.layer];//等效
-    //from:目标图层 convert 原图层的点 from 原图层
-    //to:原图层 convert 原图层的点 to 目标图层
+    //from:  目标图层 convert 原图层的点 from 原图层
+    //to:    原图层  convert 原图层的点 to 目标图层
     NSLog(@"2.%@", NSStringFromCGPoint(point));
 
     //get layer using containsPoint:
