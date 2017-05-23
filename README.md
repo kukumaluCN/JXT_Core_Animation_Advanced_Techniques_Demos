@@ -96,3 +96,13 @@ CATransaction事务（隐式动画，事务）
 - CoreAnimationAdvancedTechniques7_2    
 CATransaction完成块（隐式动画结束回调）   
 
+- CoreAnimationAdvancedTechniques7_3  
+图层行为 -actionForLayer
+
+- CoreAnimationAdvancedTechniques7_4  
+呈现与模型 presentationLayer
+
+### 8.显式动画
+- CoreAnimationAdvancedTechniques8_1  
+
+
