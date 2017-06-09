@@ -104,5 +104,12 @@ CATransaction完成块（隐式动画结束回调）
 
 ### 8.显式动画
 - CoreAnimationAdvancedTechniques8_1  
+属性动画，关键帧动画，虚拟属性  
+
+- CoreAnimationAdvancedTechniques8_2  
+动画组  
+
+- CoreAnimationAdvancedTechniques8_3    
+过渡动画  
 
 

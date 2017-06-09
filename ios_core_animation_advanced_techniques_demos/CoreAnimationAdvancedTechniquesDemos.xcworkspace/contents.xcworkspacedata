@@ -8,6 +8,12 @@
       location = "container:"
       name = "section8">
       <FileRef
+         location = "group:CoreAnimationAdvancedTechniques8_3/CoreAnimationAdvancedTechniques8_3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques8_2/CoreAnimationAdvancedTechniques8_2.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:CoreAnimationAdvancedTechniques8_1/CoreAnimationAdvancedTechniques8_1.xcodeproj">
       </FileRef>
    </Group>
