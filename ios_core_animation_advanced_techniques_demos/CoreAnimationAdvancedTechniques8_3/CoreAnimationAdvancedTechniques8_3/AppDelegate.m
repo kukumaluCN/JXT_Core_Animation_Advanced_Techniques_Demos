@@ -8,16 +8,52 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+#import "ViewController.h"
+#import "ViewController2.h"
+
+@interface AppDelegate () <UITabBarControllerDelegate>
 
 @end
 
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //清单8.12 对UITabBarController做动画
+    UIViewController *viewController1 = [[ViewController alloc] init];
+    viewController1.title = @"VC1";
+    UIViewController *viewController2 = [[ViewController2 alloc] init];
+    viewController2.title = @"VC2";
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[viewController1, viewController2];
+    tabBarController.delegate = self;
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    
+    /**
+     *  设置tabBar-title
+     */
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor], NSFontAttributeName:[UIFont boldSystemFontOfSize:15]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:103/255.0 green:193/255.0 blue:236/255.0 alpha:1], NSFontAttributeName:[UIFont boldSystemFontOfSize:17]} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitlePositionAdjustment:UIOffsetMake(-8, -12)];
+    
     return YES;
+}
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    //用UITabBarControllerDelegate的-tabBarController:didSelectViewController:方法来应用过渡动画。我们把动画添加到UITabBarController的视图图层上，于是在标签被替换的时候动画不会被移除。
+    //set up crossfade transition
+    CATransition *transition = [CATransition animation];
+    transition.type = kCATransitionFade;
+    //apply transition to tab bar controller's view
+    [tabBarController.view.layer addAnimation:transition forKey:nil];
+//    [self.window.layer addAnimation:transition forKey:nil];
 }
 
 

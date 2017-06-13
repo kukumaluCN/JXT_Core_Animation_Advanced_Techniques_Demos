@@ -112,4 +112,8 @@ CATransaction完成块（隐式动画结束回调）
 - CoreAnimationAdvancedTechniques8_3    
 过渡动画  
 
+- CoreAnimationAdvancedTechniques8_4    
+在动画过程中取消动画  
+
+
 

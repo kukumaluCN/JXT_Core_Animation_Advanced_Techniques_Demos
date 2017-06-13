@@ -13,6 +13,11 @@
 		A7C8807F1EEAAC2C00542107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C8807D1EEAAC2C00542107 /* Main.storyboard */; };
 		A7C880811EEAAC2C00542107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C880801EEAAC2C00542107 /* Assets.xcassets */; };
 		A7C880841EEAAC2C00542107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C880821EEAAC2C00542107 /* LaunchScreen.storyboard */; };
+		A7C8808F1EECF66500542107 /* Anchor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C8808B1EECF66500542107 /* Anchor@2x.png */; };
+		A7C880901EECF66500542107 /* Cone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C8808C1EECF66500542107 /* Cone@2x.png */; };
+		A7C880911EECF66500542107 /* Igloo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C8808D1EECF66500542107 /* Igloo@2x.png */; };
+		A7C880921EECF66500542107 /* Spaceship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C8808E1EECF66500542107 /* Spaceship@2x.png */; };
+		A7C880951EEE3E7100542107 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C880941EEE3E7100542107 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,12 @@
 		A7C880801EEAAC2C00542107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7C880831EEAAC2C00542107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7C880851EEAAC2C00542107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C8808B1EECF66500542107 /* Anchor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anchor@2x.png"; sourceTree = "<group>"; };
+		A7C8808C1EECF66500542107 /* Cone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cone@2x.png"; sourceTree = "<group>"; };
+		A7C8808D1EECF66500542107 /* Igloo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Igloo@2x.png"; sourceTree = "<group>"; };
+		A7C8808E1EECF66500542107 /* Spaceship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spaceship@2x.png"; sourceTree = "<group>"; };
+		A7C880931EEE3E7100542107 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		A7C880941EEE3E7100542107 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,12 @@
 				A7C880781EEAAC2C00542107 /* AppDelegate.m */,
 				A7C8807A1EEAAC2C00542107 /* ViewController.h */,
 				A7C8807B1EEAAC2C00542107 /* ViewController.m */,
+				A7C880931EEE3E7100542107 /* ViewController2.h */,
+				A7C880941EEE3E7100542107 /* ViewController2.m */,
+				A7C8808B1EECF66500542107 /* Anchor@2x.png */,
+				A7C8808C1EECF66500542107 /* Cone@2x.png */,
+				A7C8808D1EECF66500542107 /* Igloo@2x.png */,
+				A7C8808E1EECF66500542107 /* Spaceship@2x.png */,
 				A7C8807D1EEAAC2C00542107 /* Main.storyboard */,
 				A7C880801EEAAC2C00542107 /* Assets.xcassets */,
 				A7C880821EEAAC2C00542107 /* LaunchScreen.storyboard */,
@@ -138,8 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C880841EEAAC2C00542107 /* LaunchScreen.storyboard in Resources */,
+				A7C880901EECF66500542107 /* Cone@2x.png in Resources */,
+				A7C880921EECF66500542107 /* Spaceship@2x.png in Resources */,
+				A7C8808F1EECF66500542107 /* Anchor@2x.png in Resources */,
 				A7C880811EEAAC2C00542107 /* Assets.xcassets in Resources */,
 				A7C8807F1EEAAC2C00542107 /* Main.storyboard in Resources */,
+				A7C880911EECF66500542107 /* Igloo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C8807C1EEAAC2C00542107 /* ViewController.m in Sources */,
+				A7C880951EEE3E7100542107 /* ViewController2.m in Sources */,
 				A7C880791EEAAC2C00542107 /* AppDelegate.m in Sources */,
 				A7C880761EEAAC2B00542107 /* main.m in Sources */,
 			);
