@@ -115,5 +115,11 @@ CATransaction完成块（隐式动画结束回调）
 - CoreAnimationAdvancedTechniques8_4    
 在动画过程中取消动画  
 
+### 9.图层时间
+- CoreAnimationAdvancedTechniques9_1  
+duration、repeatCount、repeatDuration  
+autoreverses  
+beginTime、timeOffset  
+fillMode  
 
 
