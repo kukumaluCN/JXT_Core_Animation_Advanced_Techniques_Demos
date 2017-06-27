@@ -16,7 +16,7 @@
 #define RADIANS_TO_DEGREES(x) ((x)/M_PI*180.0)
 #define DEGREES_TO_RADIANS(x) ((x)/180.0*M_PI)
 
-#define kPartEnabled 5
+#define kPartEnabled 2
 
 @interface ViewController () <CAAnimationDelegate>
 @property (nonatomic, strong) CALayer * colorLayer;
@@ -237,8 +237,10 @@
 //        [self updateHandsAnimated:NO];
         animation.keyPath = @"transform";
         animation.toValue = [NSValue valueWithCATransform3D:transform];
-        animation.duration = 1.0;
         animation.delegate = self;
+//        animation.duration = 1.0;
+        animation.duration = 0.5;
+        animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:1 :0 :0.75 :1]; //指针抖动
         animation.removedOnCompletion = NO;
         animation.fillMode = kCAFillModeForwards;
         [animation setValue:handView forKey:@"handView"];

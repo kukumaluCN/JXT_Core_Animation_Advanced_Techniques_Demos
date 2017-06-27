@@ -130,4 +130,14 @@ CACurrentMediaTime()、暂停/重启动画
 - CoreAnimationAdvancedTechniques9_3    
 手动动画   
 
+### 10.缓冲
+- CoreAnimationAdvancedTechniques10_1  
+动画速度：CAMediaTimingFunction、UIView的动画缓冲、缓冲和关键帧动画  
+
+- CoreAnimationAdvancedTechniques10_2  
+自定义缓冲函数：绘制CAMediaTimingFunction曲线、基于关键帧的缓冲  
+
+### 11.基于定时器的动画  
+- CoreAnimationAdvancedTechniques11_1  
+
 

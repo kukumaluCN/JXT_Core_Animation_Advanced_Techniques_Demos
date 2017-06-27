@@ -6,6 +6,23 @@
    </FileRef>
    <Group
       location = "container:"
+      name = "section11">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques11_1/CoreAnimationAdvancedTechniques11_1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "section10">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques10_2/CoreAnimationAdvancedTechniques10_2.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques10_1/CoreAnimationAdvancedTechniques10_1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "section9">
       <FileRef
          location = "group:CoreAnimationAdvancedTechniques9_3/CoreAnimationAdvancedTechniques9_3.xcodeproj">
