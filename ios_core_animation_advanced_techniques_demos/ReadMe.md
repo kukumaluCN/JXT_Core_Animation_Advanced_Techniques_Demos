@@ -139,6 +139,11 @@ CACurrentMediaTime()、暂停/重启动画
 
 ### 11.基于定时器的动画  
 - CoreAnimationAdvancedTechniques11_1  
+定时帧:NSTimer/CADisplayLink  
+RunLoop模式  
+
+- CoreAnimationAdvancedTechniques11_2  
+Chipmunk2D  
 
 
 

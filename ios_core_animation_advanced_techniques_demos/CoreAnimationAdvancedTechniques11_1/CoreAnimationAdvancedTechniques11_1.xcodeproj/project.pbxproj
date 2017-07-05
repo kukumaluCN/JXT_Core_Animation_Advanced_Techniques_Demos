@@ -13,6 +13,7 @@
 		A780E62E1F02059900151761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A780E62C1F02059900151761 /* Main.storyboard */; };
 		A780E6301F02059900151761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A780E62F1F02059900151761 /* Assets.xcassets */; };
 		A780E6331F02059900151761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A780E6311F02059900151761 /* LaunchScreen.storyboard */; };
+		A780E63B1F022C3500151761 /* Ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A780E63A1F022C3400151761 /* Ball@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A780E62F1F02059900151761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A780E6321F02059900151761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A780E6341F02059900151761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A780E63A1F022C3400151761 /* Ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ball@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A780E6271F02059900151761 /* AppDelegate.m */,
 				A780E6291F02059900151761 /* ViewController.h */,
 				A780E62A1F02059900151761 /* ViewController.m */,
+				A780E63A1F022C3400151761 /* Ball@2x.png */,
 				A780E62C1F02059900151761 /* Main.storyboard */,
 				A780E62F1F02059900151761 /* Assets.xcassets */,
 				A780E6311F02059900151761 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				A780E6331F02059900151761 /* LaunchScreen.storyboard in Resources */,
 				A780E6301F02059900151761 /* Assets.xcassets in Resources */,
 				A780E62E1F02059900151761 /* Main.storyboard in Resources */,
+				A780E63B1F022C3500151761 /* Ball@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

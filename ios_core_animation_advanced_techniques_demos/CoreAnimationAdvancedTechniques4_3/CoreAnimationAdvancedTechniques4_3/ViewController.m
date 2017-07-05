@@ -14,7 +14,7 @@
 #define kDegreesToRadian(x) (M_PI * (x) / 180.0)
 
 
-#define kPartEnabled 4
+#define kPartEnabled 3
 
 
 @interface ViewController ()

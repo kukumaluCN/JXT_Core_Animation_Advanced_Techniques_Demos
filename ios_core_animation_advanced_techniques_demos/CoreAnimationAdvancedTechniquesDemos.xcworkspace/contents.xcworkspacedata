@@ -7,6 +7,888 @@
    <Group
       location = "container:"
       name = "section11">
+      <Group
+         location = "group:Chipmunk2D-master"
+         name = "Chipmunk2D-master">
+         <Group
+            location = "group:android"
+            name = "android">
+            <FileRef
+               location = "group:Android.mk">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CMakeLists.txt">
+         </FileRef>
+         <Group
+            location = "group:codeblocks"
+            name = "codeblocks">
+            <FileRef
+               location = "group:Chipmunk.cbp">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:demo"
+            name = "demo">
+            <FileRef
+               location = "group:Bench.c">
+            </FileRef>
+            <FileRef
+               location = "group:Buoyancy.c">
+            </FileRef>
+            <FileRef
+               location = "group:Chains.c">
+            </FileRef>
+            <FileRef
+               location = "group:ChipmunkDebugDraw.c">
+            </FileRef>
+            <FileRef
+               location = "group:ChipmunkDebugDraw.h">
+            </FileRef>
+            <FileRef
+               location = "group:ChipmunkDemo.c">
+            </FileRef>
+            <FileRef
+               location = "group:ChipmunkDemo.h">
+            </FileRef>
+            <FileRef
+               location = "group:ChipmunkDemoShaderSupport.c">
+            </FileRef>
+            <FileRef
+               location = "group:ChipmunkDemoShaderSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:ChipmunkDemoTextSupport.c">
+            </FileRef>
+            <FileRef
+               location = "group:ChipmunkDemoTextSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:CMakeLists.txt">
+            </FileRef>
+            <FileRef
+               location = "group:ContactGraph.c">
+            </FileRef>
+            <FileRef
+               location = "group:ContactPoints.c_">
+            </FileRef>
+            <FileRef
+               location = "group:Convex.c">
+            </FileRef>
+            <FileRef
+               location = "group:Crane.c">
+            </FileRef>
+            <FileRef
+               location = "group:GJK.c_">
+            </FileRef>
+            <FileRef
+               location = "group:GLEWConfig.cmake">
+            </FileRef>
+            <FileRef
+               location = "group:GLFWConfig.cmake">
+            </FileRef>
+            <FileRef
+               location = "group:Joints.c">
+            </FileRef>
+            <FileRef
+               location = "group:LogoSmash.c">
+            </FileRef>
+            <FileRef
+               location = "group:OneWay.c">
+            </FileRef>
+            <FileRef
+               location = "group:Planet.c">
+            </FileRef>
+            <FileRef
+               location = "group:Player.c">
+            </FileRef>
+            <FileRef
+               location = "group:Plink.c">
+            </FileRef>
+            <FileRef
+               location = "group:Pump.c">
+            </FileRef>
+            <FileRef
+               location = "group:PyramidStack.c">
+            </FileRef>
+            <FileRef
+               location = "group:PyramidTopple.c">
+            </FileRef>
+            <FileRef
+               location = "group:Query.c">
+            </FileRef>
+            <FileRef
+               location = "group:Shatter.c">
+            </FileRef>
+            <FileRef
+               location = "group:Slice.c">
+            </FileRef>
+            <FileRef
+               location = "group:Smooth.c_">
+            </FileRef>
+            <FileRef
+               location = "group:Springies.c">
+            </FileRef>
+            <FileRef
+               location = "group:Sticky.c">
+            </FileRef>
+            <FileRef
+               location = "group:Tank.c">
+            </FileRef>
+            <FileRef
+               location = "group:TheoJansen.c">
+            </FileRef>
+            <FileRef
+               location = "group:Tumble.c">
+            </FileRef>
+            <FileRef
+               location = "group:Unicycle.c">
+            </FileRef>
+            <FileRef
+               location = "group:VeraMoBd.ttf_sdf.h">
+            </FileRef>
+            <FileRef
+               location = "group:VeraMoBI.ttf_sdf.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:doc"
+            name = "doc">
+            <Group
+               location = "group:examples"
+               name = "examples">
+               <FileRef
+                  location = "group:BreakableJoint.html">
+               </FileRef>
+               <FileRef
+                  location = "group:CollisionCallback.html">
+               </FileRef>
+               <FileRef
+                  location = "group:cpConvexHull.html">
+               </FileRef>
+               <FileRef
+                  location = "group:cpSpaceEachBody.html">
+               </FileRef>
+               <FileRef
+                  location = "group:Crushing.html">
+               </FileRef>
+               <FileRef
+                  location = "group:DynamicStatic.html">
+               </FileRef>
+               <FileRef
+                  location = "group:Hello Chipmunk.html">
+               </FileRef>
+               <FileRef
+                  location = "group:JointRecipies.html">
+               </FileRef>
+               <FileRef
+                  location = "group:Moments.html">
+               </FileRef>
+               <FileRef
+                  location = "group:PlaySoundOnCollision.html">
+               </FileRef>
+               <FileRef
+                  location = "group:Sleeping.html">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:examples.html">
+            </FileRef>
+            <Group
+               location = "group:images"
+               name = "images">
+               <FileRef
+                  location = "group:hash_just_right.png">
+               </FileRef>
+               <FileRef
+                  location = "group:hash_too_big.png">
+               </FileRef>
+               <FileRef
+                  location = "group:hash_too_small.png">
+               </FileRef>
+               <FileRef
+                  location = "group:hms_logo.png">
+               </FileRef>
+               <FileRef
+                  location = "group:logo1_med.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:stylesheet.css">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:doc-src"
+            name = "doc-src">
+            <FileRef
+               location = "group:chipmunk-docs.textile">
+            </FileRef>
+            <FileRef
+               location = "group:Doxyfile">
+            </FileRef>
+            <FileRef
+               location = "group:doxygen_generator.rb">
+            </FileRef>
+            <FileRef
+               location = "group:doxygen_main">
+            </FileRef>
+            <FileRef
+               location = "group:extract_protos.rb">
+            </FileRef>
+            <FileRef
+               location = "group:MakeDocs.rb">
+            </FileRef>
+            <FileRef
+               location = "group:upload_docs.sh">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:include"
+            name = "include">
+            <Group
+               location = "group:chipmunk"
+               name = "chipmunk">
+               <FileRef
+                  location = "group:chipmunk.h">
+               </FileRef>
+               <FileRef
+                  location = "group:chipmunk_ffi.h">
+               </FileRef>
+               <FileRef
+                  location = "group:chipmunk_private.h">
+               </FileRef>
+               <FileRef
+                  location = "group:chipmunk_structs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:chipmunk_types.h">
+               </FileRef>
+               <FileRef
+                  location = "group:chipmunk_unsafe.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpArbiter.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpBB.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpBody.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpConstraint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpDampedRotarySpring.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpDampedSpring.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpGearJoint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpGrooveJoint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpHastySpace.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpMarch.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpPinJoint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpPivotJoint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpPolyline.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpPolyShape.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpRatchetJoint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpRobust.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpRotaryLimitJoint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpShape.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpSimpleMotor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpSlideJoint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpSpace.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpSpatialIndex.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpTransform.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cpVect.h">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:LICENSE.txt">
+         </FileRef>
+         <Group
+            location = "group:msvc"
+            name = "msvc">
+            <Group
+               location = "group:glew"
+               name = "glew">
+               <Group
+                  location = "group:bin"
+                  name = "bin">
+                  <Group
+                     location = "group:Release"
+                     name = "Release">
+                     <Group
+                        location = "group:Win32"
+                        name = "Win32">
+                        <FileRef
+                           location = "group:glew32.dll">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:include"
+                  name = "include">
+                  <Group
+                     location = "group:GL"
+                     name = "GL">
+                     <FileRef
+                        location = "group:glew.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:glxew.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:wglew.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:lib"
+                  name = "lib">
+                  <Group
+                     location = "group:Release"
+                     name = "Release">
+                     <Group
+                        location = "group:Win32"
+                        name = "Win32">
+                        <FileRef
+                           location = "group:glew32.lib">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE.txt">
+               </FileRef>
+               <FileRef
+                  location = "group:README.txt">
+               </FileRef>
+               <FileRef
+                  location = "group:TODO.txt">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:glfw"
+               name = "glfw">
+               <FileRef
+                  location = "group:COPYING.txt">
+               </FileRef>
+               <Group
+                  location = "group:include"
+                  name = "include">
+                  <Group
+                     location = "group:GL"
+                     name = "GL">
+                     <FileRef
+                        location = "group:glfw.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:lib-msvc100"
+                  name = "lib-msvc100">
+                  <FileRef
+                     location = "group:GLFW.dll">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GLFW.lib">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GLFWDLL.lib">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:readme.html">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:readme.txt">
+            </FileRef>
+            <Group
+               location = "group:vc10"
+               name = "vc10">
+               <Group
+                  location = "group:chipmunk"
+                  name = "chipmunk">
+                  <FileRef
+                     location = "group:chipmunk.def">
+                  </FileRef>
+                  <FileRef
+                     location = "group:chipmunk.vcxproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:chipmunk.vcxproj.filters">
+                  </FileRef>
+                  <FileRef
+                     location = "group:chipmunk.vcxproj.user">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:demo"
+                  name = "demo">
+                  <FileRef
+                     location = "group:demo.sln">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj.filters">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj.user">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:vc12"
+               name = "vc12">
+               <Group
+                  location = "group:chipmunk"
+                  name = "chipmunk">
+                  <FileRef
+                     location = "group:chipmunk.def">
+                  </FileRef>
+                  <FileRef
+                     location = "group:chipmunk.vcxproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:chipmunk.vcxproj.filters">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:demo"
+                  name = "demo">
+                  <FileRef
+                     location = "group:demo.sln">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj.filters">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:vc13"
+               name = "vc13">
+               <Group
+                  location = "group:chipmunk"
+                  name = "chipmunk">
+                  <FileRef
+                     location = "group:chipmunk.vcxproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:chipmunk.vcxproj.filters">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:demo"
+                  name = "demo">
+                  <FileRef
+                     location = "group:Chipmunk.sln">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj.filters">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:vc14"
+               name = "vc14">
+               <Group
+                  location = "group:chipmunk"
+                  name = "chipmunk">
+                  <FileRef
+                     location = "group:chipmunk.vcxproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:chipmunk.vcxproj.filters">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:demo"
+                  name = "demo">
+                  <FileRef
+                     location = "group:Chipmunk.sln">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:demo.vcxproj.filters">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:objectivec"
+            name = "objectivec">
+            <Group
+               location = "group:include"
+               name = "include">
+               <Group
+                  location = "group:ObjectiveChipmunk"
+                  name = "ObjectiveChipmunk">
+                  <FileRef
+                     location = "group:ChipmunkAutoGeometry.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChipmunkBody.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChipmunkConstraint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChipmunkImageSampler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChipmunkMultiGrab.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChipmunkPointCloudSampler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChipmunkShape.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChipmunkSpace.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChipmunkTileCache.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ObjectiveChipmunk.h">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:src"
+               name = "src">
+               <FileRef
+                  location = "group:ChipmunkAutoGeometry.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ChipmunkBody.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ChipmunkConstraint.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ChipmunkImageSampler.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ChipmunkMultiGrab.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ChipmunkPointCloudSampler.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ChipmunkShape.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ChipmunkSpace.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ChipmunkTileCache.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:README.textile">
+         </FileRef>
+         <Group
+            location = "group:scripts"
+            name = "scripts">
+            <FileRef
+               location = "group:BuildReleaseArchive.rb">
+            </FileRef>
+            <FileRef
+               location = "group:UploadArchive.rb">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:src"
+            name = "src">
+            <FileRef
+               location = "group:chipmunk.c">
+            </FileRef>
+            <FileRef
+               location = "group:CMakeLists.txt">
+            </FileRef>
+            <FileRef
+               location = "group:cpArbiter.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpArray.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpBBTree.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpBody.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpCollision.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpConstraint.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpDampedRotarySpring.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpDampedSpring.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpGearJoint.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpGrooveJoint.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpHashSet.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpHastySpace.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpMarch.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpPinJoint.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpPivotJoint.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpPolyline.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpPolyShape.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpRatchetJoint.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpRobust.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpRotaryLimitJoint.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpShape.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSimpleMotor.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSlideJoint.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSpace.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSpaceComponent.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSpaceDebug.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSpaceHash.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSpaceQuery.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSpaceStep.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSpatialIndex.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpSweep1D.c">
+            </FileRef>
+            <FileRef
+               location = "group:prime.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:TODO.txt">
+         </FileRef>
+         <FileRef
+            location = "group:VERSION.txt">
+         </FileRef>
+         <Group
+            location = "group:xcode"
+            name = "xcode">
+            <FileRef
+               location = "group:bench.rb">
+            </FileRef>
+            <FileRef
+               location = "group:bench2.rb">
+            </FileRef>
+            <Group
+               location = "group:Benchmark"
+               name = "Benchmark">
+               <FileRef
+                  location = "group:Benchmark-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:iPhoneBenchmarkMain.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Chipmunk7.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:iphonestatic.command">
+            </FileRef>
+            <Group
+               location = "group:libGLEW"
+               name = "libGLEW">
+               <Group
+                  location = "group:include"
+                  name = "include">
+                  <Group
+                     location = "group:GL"
+                     name = "GL">
+                     <FileRef
+                        location = "group:glew.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:lib"
+                  name = "lib">
+                  <FileRef
+                     location = "group:libGLEW.a">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE.txt">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:libglfw"
+               name = "libglfw">
+               <FileRef
+                  location = "group:COPYING.txt">
+               </FileRef>
+               <Group
+                  location = "group:include"
+                  name = "include">
+                  <Group
+                     location = "group:GL"
+                     name = "GL">
+                     <FileRef
+                        location = "group:glfw.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:lib"
+                  name = "lib">
+                  <FileRef
+                     location = "group:libglfw.a">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:macstatic.command">
+            </FileRef>
+            <FileRef
+               location = "group:main-Info.plist">
+            </FileRef>
+            <Group
+               location = "group:ObjectiveChipmunkTests"
+               name = "ObjectiveChipmunkTests">
+               <FileRef
+                  location = "group:BodyTest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CallbacksTest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ConvexTest.m">
+               </FileRef>
+               <Group
+                  location = "group:en.lproj"
+                  name = "en.lproj">
+                  <FileRef
+                     location = "group:InfoPlist.strings">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:MemoryTest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MiscTest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectiveChipmunkTests-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:ShapeTest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SpaceTest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:TestImageLA.png">
+               </FileRef>
+               <FileRef
+                  location = "group:TestImageRGB.png">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques11_2/CoreAnimationAdvancedTechniques11_2.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:CoreAnimationAdvancedTechniques11_1/CoreAnimationAdvancedTechniques11_1.xcodeproj">
       </FileRef>
