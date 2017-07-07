@@ -6,6 +6,20 @@
    </FileRef>
    <Group
       location = "container:"
+      name = "section14">
+   </Group>
+   <Group
+      location = "container:"
+      name = "section13">
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques13_3/CoreAnimationAdvancedTechniques13_3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoreAnimationAdvancedTechniques13_2/CoreAnimationAdvancedTechniques13_2.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "section11">
       <Group
          location = "group:Chipmunk2D-master"

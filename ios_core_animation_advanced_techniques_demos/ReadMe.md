@@ -145,5 +145,13 @@ RunLoop模式
 - CoreAnimationAdvancedTechniques11_2  
 Chipmunk2D  
 
+### 13.高效绘图  
+- CoreAnimationAdvancedTechniques13_2    
+矢量绘图（drawRect/CAShapeLayer画板）  
+  
+- CoreAnimationAdvancedTechniques13_3      
+脏矩形（setNeedsDisplayInRect、粉笔画板）  
+
+
 
 
