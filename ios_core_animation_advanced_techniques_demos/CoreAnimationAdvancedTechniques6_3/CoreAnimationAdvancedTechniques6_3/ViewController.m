@@ -85,6 +85,9 @@
     //apply the transform and return
     face.transform = transform;
     
+//    face.anchorPointZ = 30;
+//    face.zPosition = 30;
+    
     return face;
 }
 //正方体组合
